@@ -1,0 +1,24 @@
+.header {
+	position: relative;
+	z-index: 9999;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 310px;
+	width: 100vw;
+	min-width: 325px;
+	padding: 0 25px;
+	background-color: dodgerblue;
+	background-image: url("./Header.png");
+	background-size: cover;
+	background-position: center;
+	& > * {
+		flex-shrink: 0;
+	}
+	h1 {
+		color: var(--white);
+		font-weight: var(--weight-medium);
+		margin-bottom: 35px;
+		text-align: center;
+	}
+}
